@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+live-stats-client/node_modules
+live-stats-client/.pnp
+live-stats-client/.pnp.js
+
+# testing
+live-stats-client/coverage
+
+# production
+live-stats-client/build
+
+# misc
+live-stats-client/.DS_Store
+live-stats-client/.env.local
+live-stats-client/.env.development.local
+live-stats-client/.env.test.local
+live-stats-client/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
